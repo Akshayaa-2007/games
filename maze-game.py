@@ -6,7 +6,7 @@ import numpy as np
 # 1. Define the Maze
 # 0 = Empty Space, 1 = Wall
 maze = [
-    [0, 1, 0, 0, 0],
+    [0, 1, 0, 0, 0],-
     [0, 1, 0, 1, 0],
     [0, 0, 0, 1, 0],
     [0, 1, 1, 1, 0],
