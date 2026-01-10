@@ -1,0 +1,16 @@
+import random 
+print("Think of a number between 1 to 10, and I'll try to guess it")
+print("Response with high,low,correct statment")
+while True:
+    print("My responce",random.randrange(1,10))
+    user_guess=input("Your Responce:")
+    if user_guess=="correct":
+        print("right")
+        break
+    elif user_guess=="high":
+        print("let me guess something low")
+    elif user_guess=="low":
+        print("let me guess something high")
+    else:
+        print("invalid input")
+    
